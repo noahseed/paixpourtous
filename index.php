@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="La PAIX pour tous... Oui, TOUS.">
         <meta name="keywords" content="paix, végane, vegan, éthique, environnement, santé, vitamine, B12,
         végétarien, végétalien, écologie, protéines, végétales, animales, fromage, lait, laitier,
