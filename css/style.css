@@ -1,47 +1,38 @@
 body {
     margin: auto;
     background-color: black;
-    color: white;
+	color: white;
+	text-align: center;
 }
-
+main {
+    margin-top: 40vh;
+	transform: translateY(-40%);
+}
 h1 {
-    font-size: 36px;
+	font-size: 22px;
 }
-
 h2 {
-    font-size: 32px;
+    font-size: 16px;
 }
-
-p {
-    font-size: 34px;
-    font-weight: bold;
+h3, p {
+	font-size: 16px;
 }
-
-#barre_langues {
+footer {
     width: 200px;
     height: 30px;
-    margin: 0;
+    margin: 0px;
     padding: 10px;
     padding-right: 15px;
     position: fixed;
-    bottom: 0;
-    right: 0;
+    bottom: 0px;
+    right: 0px;
     text-align: right;
 }
-
-#barre_langues a {
-    margin: 0;
+footer a {
+    margin: 0px;
     margin-left: 5px;
-    padding: 0;
+    padding: 0px;
 }
-
-#text {
-    width: 100%;
-    position: absolute;
-    top: 20%;
-    text-align: center;
-}
-
 .btn1 {
 	box-shadow: 0px 0px 7px 5px #ffffff;
 	background: linear-gradient(to bottom, #ffffff 5%, #787878 100%);
@@ -58,7 +49,6 @@ p {
 	text-decoration: none;
 	text-shadow: 1px 1px 0px #ffffff;
 }
-
 .btn2 {
 	box-shadow: 0px 0px 7px 5px #ffffff;
 	background: linear-gradient(to bottom, #787878 5%, #000000 100%);
@@ -75,25 +65,43 @@ p {
 	text-decoration: none;
 	text-shadow: 1px 1px 0px #ffffff;
 }
-
 .btn1:hover {
 	background: linear-gradient(to bottom, #787878 5%, #000000 100%);
 	background-color: #000000;
 	color: #ffffff;
 }
-
 .btn2:hover {
 	background: linear-gradient(to bottom, #ffffff 5%, #787878 100%);
 	background-color: #ffffff;
 	color: #000000;
 }
-
 .btn1:active {
     position: relative;
 	top: 1px;
 }
-
 .btn2:active {
     position: relative;
 	top: 1px;
+}
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 30px;
+	}
+	h2 {
+		font-size: 26px;
+	}
+	h3, p {
+		font-size: 26px;
+	}
+}
+@media screen and (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+	}
+	h2 {
+		font-size: 30px;
+	}
+	h3, p {
+		font-size: 30px;
+	}
 }
